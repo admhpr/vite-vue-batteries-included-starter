@@ -13,7 +13,10 @@ module.exports = {
       },
     },
   ],
-  extends: ["plugin:vue/vue3-recommended"],
+  extends: [
+    "plugin:vue/vue3-recommended",
+    "plugin:@typescript-eslint/recommended",
+  ],
   rules: {
     "vue/max-attributes-per-line": ["warn", { singleline: 5 }],
     "vue/html-self-closing": "off",
